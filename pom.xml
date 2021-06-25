@@ -4,6 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <name>Java</name>
+    <description>Yura Mishin's Java labs</description>
+    <developers>
+        <developer>
+            <name>Mishin Yury</name>
+            <email>mishin.inbox@gmail.com</email>
+        </developer>
+    </developers>
+
     <groupId>org.example</groupId>
     <artifactId>Java</artifactId>
     <packaging>pom</packaging>
@@ -40,6 +49,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Assertj -->
         <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
         <dependency>
             <groupId>org.assertj</groupId>
